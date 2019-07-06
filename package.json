@@ -1,0 +1,28 @@
+{
+  "name": "j5-rpi",
+  "version": "0.0.1",
+  "description": "hardware test suite for Raspberry Pi",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Balestrino/j5-rpi.git"
+  },
+  "keywords": [
+    "rpi"
+  ],
+  "author": "Salvatore Balestrino",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Balestrino/j5-rpi/issues"
+  },
+  "homepage": "https://github.com/Balestrino/j5-rpi#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "johnny-five": "^1.1.0",
+    "raspi-io": "^10.0.2",
+    "socketio": "^1.0.0"
+  }
+}
